@@ -1,0 +1,46 @@
+.cabecalho {
+    background-color: var(--cor-de-fundo);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0.2em;
+    padding: 0.2em;
+}
+
+.container__titulo {
+    padding: 0.5em;
+    color: var(--cor-titulo);
+    font-family: var(--fonte-principal);
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.opcoes {
+    display: flex;
+    justify-content: space-around;
+}
+
+.opcoes__item__link, .opcoes__item__botao {
+    padding-left: 1em;
+    text-decoration: none;
+    color: var(--cinza);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.opcoes__item__botao {
+    background-color: var(--vinho);
+    color: var(--cor-de-fundo);
+    text-align: center;
+    padding: 0.5em 0.5em;
+    margin: 1em;
+    border-radius: 10px;
+}

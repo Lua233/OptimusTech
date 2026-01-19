@@ -1,0 +1,40 @@
+/* vagas */
+.vagas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1em;
+}
+
+.vagas__link {
+    color: var(--vinho);
+    background-color: var(--cor-botao-vagas);
+    border-radius: 30px;
+    padding: 1em;
+    font-family: var(--fonte-principal);
+    font-size: 14px;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.vagas__titulo {
+    color: var(--cinza-escuro);
+    font-family: var(--fonte-principal);
+    font-size: 36px;
+    font-weight: 600;
+    padding: 0.5em;
+}
+
+.vagas__texto {
+    color: var(--cinza);
+    font-family: var(--fonte-principal);
+    font-size: 20px;
+    font-weight: 400;
+    padding: 1em;
+}
+
+.vagas__imagem {
+    padding: 0.4em;
+    border:2px solid #f7f1f1;
+    border-radius: 5px;
+}

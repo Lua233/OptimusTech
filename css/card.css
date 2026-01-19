@@ -1,0 +1,46 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 2em;
+}
+
+.card__vagas {
+    padding: 1em 20vw;
+}
+
+.card__descricao {
+    border: 1px solid var(--cor-borda);
+    border-radius: 16px;
+    padding: 0.7em 0 1.6em 0;
+    /* background-color: tomato; */
+}
+
+.card__titulo {
+    font-family: var(--fonte-principal);
+    font-size: 20px;
+    font-weight: 500;
+    color: var(--cinza-escuro);
+    padding: 1em 0;
+}
+
+.card__subtitulo {
+    padding: 1em 1em;
+    font-family: var(--fonte-principal);
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--cinza-escuro);
+}
+
+.card__texto {
+    padding: 1em 1em;
+    display: inline;
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--cinza);
+}
+
+.card_bar {
+    padding:2em;
+}

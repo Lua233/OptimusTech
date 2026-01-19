@@ -1,0 +1,38 @@
+.metricas {
+    margin: 1em;
+    padding: 1em;
+}
+
+.metricas__lista { /* aqui */
+    display: flex;
+    justify-content: space-around;
+    width: 90%;
+    gap: 10px;
+    margin: 0 auto;
+}
+
+.metricas__item {
+    padding: none; /* aqui */
+}
+
+.metricas__titulo {
+    color: var(--vinho);
+    font-family: var(--fonte-principal);
+    font-size: 60px;
+    font-weight: 600;
+}
+
+.metricas__subtitulo {
+    color: var(--cinza-escuro);
+    font-family: var(--fonte-principal);
+    font-size: 18px;
+    font-weight: 500;
+    padding: 1em 0;
+}
+
+.metricas__texto {
+    color: var(--cinza);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
+}

@@ -1,0 +1,33 @@
+.banner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1em;
+}
+
+.banner__titulo {
+    font-family: var(--fonte-principal);
+    font-size: 48px;
+    font-weight: 600;
+    color: var(--preto);
+}
+
+.banner__subtitulo {
+    color: var(--vinho);
+    font-family: var(--fonte-principal);
+    font-weight: 600;
+    font-size: 16px;
+    padding: 1em;
+}
+
+.banner__texto {
+    width: 60%;
+    text-wrap: wrap;
+    text-align: center;
+    font-family: var(--fonte-principal);
+    font-weight: 400;
+    font-size: 20px;
+    color: var(--cinza);
+    padding: 1em;
+}

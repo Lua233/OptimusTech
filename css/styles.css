@@ -1,0 +1,23 @@
+@import url("reset.css");
+@import url("header.css");
+@import url("banner.css");
+@import url("metricas.css");
+@import url("vagas.css");
+@import url("card.css");
+@import url("colaboradores.css");
+@import url("rodape.css");
+
+:root {
+    --cor-de-fundo: #FFFFFF;
+    --cor-titulo: #3A404E;
+    --cinza: #667085;
+    --cinza-escuro: #101828;
+    --cor-borda: #EAECF0;
+    --vinho: #8E2424;
+    --preto: #000000;
+    --cor-botao-vagas: #F9F4F4;
+    --cor-banner: #FDF8F8;
+    --cor-rodape: #F9FAFB;
+    --borda-placeholder: #D0D5DD;
+    --fonte-principal: "Inter";
+}
